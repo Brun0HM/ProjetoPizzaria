@@ -1,4 +1,3 @@
-
 body {
   margin: 0;
   padding: 0;
@@ -115,7 +114,71 @@ header {
   gap: 7px;
 }
 
-.zap{
+.zap {
   text-decoration: none;
   color: #fff;
+}
+
+.ifood {
+  position: fixed;
+  right: 0;
+  top: 200px;
+  box-shadow: -10px 10px 10px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -10px 10px 10px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -10px 10px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+#boaVinda {
+  display: flex;
+  margin: 0 auto;
+  background: #f6f6f6;
+  justify-content: center;
+  padding-bottom: 15px;
+}
+
+#boaVinda img {
+  padding: 0 100px;
+}
+
+#bemVindoTexto {
+  max-width: 600px;
+  padding-right: 100px;
+}
+
+#bemVindoTexto h4 {
+  text-transform: uppercase;
+  font-size: 16px;
+  padding-top: 0px;
+  margin-top: 21px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#bemVindoTexto h3 {
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #e7a200;
+  font-size: 23px;
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+
+#bemVindoTexto p {
+  margin-bottom: 0;
+}
+
+#cardapio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#cardapio div {
+  width: 100%;
+  height: 80;
+  display: flex;
+  justify-content: space-between
+}
+
+#cadarpio div img {
+padding: 36px 0;
 }
